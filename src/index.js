@@ -5,7 +5,7 @@ import './assets/styles/global.styl'
 
 const root=document.createElement('div')
 document.body.appendChild(root)
-
+//挂载到root下面
 new Vue({
     render:(h)=>h(App)
 }).$mount(root)
